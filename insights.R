@@ -3,12 +3,6 @@
 # Data: format(Sys.Date(), "%d/%m/%Y")
 
 # 1. Instalação e Carregamento de Pacotes --------------------------------------
-if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("tidyr")) install.packages("tidyr")
-if (!require("lubridate")) install.packages("lubridate")
-if (!require("gridExtra")) install.packages("gridExtra")
-if (!require("moments")) install.packages("moments")  # Para análise de assimetria e curtose
 
 library(ggplot2)
 library(dplyr)
